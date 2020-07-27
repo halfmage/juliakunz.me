@@ -5,8 +5,11 @@ import withLayout from '../layout';
 import Link from '../components/Link';
 import Image from '../components/Image';
 
+import Julia from '../images/juliakunz.jpeg';
+
 const IndexPage = () => (
   <>
+    <img src={Julia} alt="test" />
     <h1>
       <FormattedMessage id="home.Hi people" />
     </h1>

@@ -5,7 +5,7 @@ import { IntlProvider, addLocaleData } from 'react-intl';
 
 import PageContext from './PageContext';
 
-import plData from 'react-intl/locale-data/pl';
+import plData from 'react-intl/locale-data/de';
 import enData from 'react-intl/locale-data/en';
 import { translations, languages } from '../i18n';
 
@@ -15,13 +15,13 @@ import './layout.css';
 
 addLocaleData([...plData, ...enData]);
 
-const withLayout = customProps => PageComponent => props => {
+const withLayout = (customProps) => (PageComponent) => (props) => {
   const { locale } = props.pageContext;
   const { localeKey, hideLangs } = customProps;
 
   const pageContextValue = { custom: customProps, page: props.pageContext };
 
-  const defaultLocale = languages.find(language => language.default).locale;
+  const defaultLocale = languages.find((language) => language.default).locale;
   const pageLocale = locale || defaultLocale;
   const pageTitle = locale ? translations[locale][`${localeKey}.title`] : '';
 
@@ -36,7 +36,7 @@ const withLayout = customProps => PageComponent => props => {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <IntlProvider locale={pageLocale} messages={translations[pageLocale]}>
           <PageContext.Provider value={pageContextValue}>
             <SEO title={pageTitle} lang={pageLocale} />
