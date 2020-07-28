@@ -19,4 +19,8 @@ export default {
   POText: 'Stakeholder ManagementFeatures creation & prioritisation',
   DO: 'Documentation',
   DOText: 'Requirements Analysis & SRSs Prototyping & WBS',
+
+  CVHeadline: 'Beruflicher Werdegang',
+  CVSubheadline:
+    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
 };
