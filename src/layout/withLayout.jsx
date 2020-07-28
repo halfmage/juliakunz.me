@@ -46,9 +46,15 @@ const withLayout = (customProps) => (PageComponent) => (props) => {
               <PageComponent {...props} />
             </main>
             <footer>
-              © {new Date().getFullYear()}, Built with
-              {` `}
-              <a href="https://www.gatsbyjs.org">Gatsby</a>
+              <div className="wrap">
+                <div className="row">
+                  <div className="col-xs-12 center-xs">
+                    © {new Date().getFullYear()}, Built with
+                    {` `}
+                    <a href="https://www.gatsbyjs.org">Gatsby</a>
+                  </div>
+                </div>
+              </div>
             </footer>
           </PageContext.Provider>
         </IntlProvider>

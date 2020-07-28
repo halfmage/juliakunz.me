@@ -7,6 +7,10 @@ export default {
 
   HeroOne: 'Looking for full-time position',
 
+  ServiceHeadline: 'Overview of my professions',
+  ServiceSubheadline:
+    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
+
   BA: 'Business Analysis',
   BAText: 'Analytical thinking & KPI analysis Processes Optimisation',
   PM: 'Project Management',

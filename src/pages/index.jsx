@@ -34,7 +34,19 @@ const IndexPage = () => (
       </div>
     </div>
     <div>
-      <div className="wrap">
+      <div className="section wrap">
+        <div className="row">
+          <div className="col-xs-12 center-xs col-sm-8 col-sm-offset-2">
+            <h2 className="headline">
+              <FormattedMessage id="home.ServiceHeadline" />
+            </h2>
+            <p>
+              <FormattedMessage id="home.ServiceSubheadline" />
+            </p>
+            <br />
+            <br />
+          </div>
+        </div>
         <div className="row">
           <div className="col-xs-6 col-sm-3">
             <div className="box">
@@ -71,21 +83,6 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <p>
-      <a
-        href="https://github.com/tomekskuta/gatsby-starter-intl"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        <FormattedMessage id="home.or learn more" />
-      </a>
-    </p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">
-      <FormattedMessage id="home.Go to page 2" />
-    </Link>
   </>
 );
 

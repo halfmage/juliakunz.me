@@ -7,6 +7,10 @@ export default {
 
   HeroOne: 'Verfügbar für Vollzeit Stelle',
 
+  ServiceHeadline: 'Übersicht meiner Fähigkeiten',
+  ServiceSubheadline:
+    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
+
   BA: 'Business Analysis',
   BAText: 'Analytical thinking & KPI analysis Processes Optimisation',
   PM: 'Project Management',

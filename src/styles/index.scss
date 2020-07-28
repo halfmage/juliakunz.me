@@ -6,8 +6,14 @@ body {
   line-height: 1.5;
 }
 
+.section {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .hero {
   padding: 6rem 0;
+  background-color: #ebf4ff;
 
   img {
     box-shadow: 0 1rem 2rem rgba(11, 83, 148, 0.25);
@@ -16,13 +22,11 @@ body {
   }
 
   .hero-link {
-    font-weight: 600;
     font-size: 18px;
-    letter-spacing: 0.5px;
     color: #fff;
     background-color: #48bb78;
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
     display: inline-block;
     margin-top: 1rem;
   }
@@ -40,7 +44,8 @@ body {
 
 .header {
   padding: 1rem 0;
-  background-color: #edf2f7;
+  background-color: #ebf4ff;
+  border-bottom: 1px solid #c3dafe;
 
   h1 {
     font-size: 36px;
