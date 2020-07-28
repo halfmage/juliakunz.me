@@ -12,6 +12,7 @@ import { translations, languages } from '../i18n';
 import Header from '../components/Header';
 import SEO from '../components/SEO';
 import './layout.css';
+import '../styles/grid.scss';
 
 addLocaleData([...plData, ...enData]);
 
@@ -41,23 +42,14 @@ const withLayout = (customProps) => (PageComponent) => (props) => {
           <PageContext.Provider value={pageContextValue}>
             <SEO title={pageTitle} lang={pageLocale} />
             <Header siteTitle={data.site.siteMetadata.title} hideLangs={hideLangs} />
-            <div
-              style={{
-                margin: `0 auto`,
-                maxWidth: 960,
-                padding: `0px 1.0875rem 1.45rem`,
-                paddingTop: 0,
-              }}
-            >
-              <main>
-                <PageComponent {...props} />
-              </main>
-              <footer>
-                © {new Date().getFullYear()}, Built with
-                {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a>
-              </footer>
-            </div>
+            <main>
+              <PageComponent {...props} />
+            </main>
+            <footer>
+              © {new Date().getFullYear()}, Built with
+              {` `}
+              <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </footer>
           </PageContext.Provider>
         </IntlProvider>
       )}

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Intl`,
+    title: `Julia Kunz`,
     description: `Kick off your next, great Gatsby project with this i18n starter. This barebones starter ships with the main Gatsby configuration files you might need... and i18n too!`,
     author: `@gatsbyjs, @tomekskuta`,
     keywords: [`gatsby`, `application`, `react`],
@@ -16,6 +16,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

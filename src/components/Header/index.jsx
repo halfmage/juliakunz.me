@@ -4,34 +4,16 @@ import Link from '../Link';
 import Langs from '../Langs';
 
 const Header = ({ siteTitle, hideLangs }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-        display: 'flex',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      {!hideLangs && <Langs />}
+  <header className="header">
+    <div className="wrap">
+      <div className="row middle-xs">
+        <div className="center-xs col-xs-12 start-sm col-sm-7">
+          <h1 style={{ margin: '1rem 0' }}>
+            <Link to="/">{siteTitle}</Link>
+          </h1>
+        </div>
+        <div className="col-xs-12 center-xs end-sm col-sm-5">{!hideLangs && <Langs />}</div>
+      </div>
     </div>
   </header>
 );
