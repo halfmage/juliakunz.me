@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Julia Kunz`,
-    description: `Kick off your next, great Gatsby project with this i18n starter. This barebones starter ships with the main Gatsby configuration files you might need... and i18n too!`,
-    author: `@gatsbyjs, @tomekskuta`,
+    description: `I help companies and agencies to successfully manage their projects, maintain documentations and analyse business.`,
+    author: `@halfmage`,
     keywords: [`gatsby`, `application`, `react`],
   },
   plugins: [
@@ -18,21 +18,15 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     {
-      resolve: 'gatsby-plugin-anchor-links',
-      options: {
-        offset: -64,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Julia Kunz`,
+        short_name: `juliakunz`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#3182CE`,
+        theme_color: `#3182CE`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/julia-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
