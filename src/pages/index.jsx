@@ -2,8 +2,6 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
 import withLayout from '../layout';
-import Link from '../components/Link';
-import Image from '../components/Image';
 
 import '../styles/index.scss';
 
@@ -15,21 +13,20 @@ const IndexPage = () => (
       <div className="wrap">
         <div className="row center-xs start-sm middle-sm">
           <div className="col-xs-12 col-sm-5">
+            <img src={Julia} alt="test" />
+          </div>
+          <div className="col-xs-12 col-sm-6 col-sm-offset-1">
             <h1>
+              <i class="em-svg em-wave" role="img" aria-label="WAVING HAND SIGN"></i>{' '}
               <FormattedMessage id="home.Hello" />
             </h1>
             <div className="text-large">
               <FormattedMessage id="home.Welcome" />
             </div>
-            <div>
-              <a href="#" className="hero-link">
-                <FormattedMessage id="home.HeroOne" />
-              </a>
-            </div>
             <br />
-          </div>
-          <div className="col-xs-12 col-sm-5 col-sm-offset-2">
-            <img src={Julia} alt="test" />
+            <a href="mailto:julia.kunz.de@gmail.com" className="hero-link ">
+              <FormattedMessage id="home.HeroOne" />
+            </a>
           </div>
         </div>
       </div>
@@ -38,7 +35,7 @@ const IndexPage = () => (
       <div className="section wrap">
         <div className="row">
           <div className="col-xs-12 center-xs col-sm-8 col-sm-offset-2">
-            <h2 className="headline">
+            <h2 className="headline" id="services">
               <FormattedMessage id="home.ServiceHeadline" />
             </h2>
             <p>
@@ -151,6 +148,61 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+
+      <div className="section wrap">
+        <div className="row">
+          <div className="col-xs-12 col-sm-6">
+            <h2 className="subheadline">
+              <FormattedMessage id="home.Languages" />
+            </h2>
+            <div className="listbox">
+              <i class="em-svg em-uk" role="img" aria-label="UK"></i>
+              <FormattedMessage id="home.English" /> -{' '}
+              <span>
+                <FormattedMessage id="home.Fluent" />
+              </span>
+            </div>
+            <div className="listbox">
+              <i class="em-svg em-de" role="img" aria-label="DE"></i>
+              <FormattedMessage id="home.German" /> -{' '}
+              <span>
+                <FormattedMessage id="home.CurrentlyB2" />
+              </span>
+            </div>
+            <div className="listbox">
+              <i class="em-svg em-ru" role="img" aria-label="RU"></i>
+              <FormattedMessage id="home.Russian" /> -{' '}
+              <span>
+                <FormattedMessage id="home.MotherTongue" />
+              </span>
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-6">
+            <h2 className="subheadline">
+              <FormattedMessage id="home.Degrees" />
+            </h2>
+            <div className="listbox">
+              <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
+              <span>
+                Belarusian State Economic University - <span>2007</span>
+              </span>
+            </div>
+            <div className="listbox">
+              <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
+              <span>
+                Bachelor of Science - <span>Economic Cybernetics</span>
+              </span>
+            </div>
+            <div className="listbox">
+              <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
+              <span>
+                Alison Diploma in Project Management - <span>276-9159423</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="section wrap">
         <div className="row">
           <div className="col-xs-12 center-xs col-sm-8 col-sm-offset-2">
@@ -204,8 +256,12 @@ const IndexPage = () => (
             <p>
               <strong>References</strong>
               <nav>
-                <a href="https://www.etravel.cz/">https://www.etravel.cz/</a>
-                <a href="https://www.aldiana.com/">https://www.aldiana.com/</a>
+                <a target="_blank" rel="noreferrer" href="https://www.etravel.cz/">
+                  https://www.etravel.cz/
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.aldiana.com/">
+                  https://www.aldiana.com/
+                </a>
               </nav>
             </p>
           </article>
@@ -214,45 +270,101 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-2 center-xs">
             <div className="bubble">
-              <div>January 2018</div>
-              <div className="center">2 years</div>
-              <div>January 2020</div>
+              <div>July 2017</div>
+              <div className="center">4 Months</div>
+              <div>November 2017</div>
             </div>
           </div>
           <article className="exp-item col-xs-12 col-sm-8 ">
-            <h3>Freshcells GmbH, Düsseldorf, Germany</h3>
-            <div>Project Manager / Consultant, January 2018 - January 2020</div>
+            <h3>OXAGILE, Minsk, Belarus</h3>
+            <div>Product Manager / Business Analyst July 2017 - November 2017</div>
 
             <p>
               <strong>Main tasks</strong>
               <ul>
-                <li>Requirements elaboration, mockups preparation</li>
-                <li>Taking care of a Backlog and proper tickets description</li>
-                <li>Setting up project processes, preparation of weekly reports and invoicing</li>
-                <li>Defined and optimised Project’s Information Structure</li>
                 <li>
-                  Defining the governance (access rights, workflows etc.) in Jira and Confluence
+                  Taking care of a Backlog, stories DoR state and making sure that team understands
+                  all the requirements correctly
                 </li>
+                <li>
+                  Planning Sprints, Milestones and all related Team - meetings, including
+                  Retrospectives
+                </li>
+                <li>
+                  Preparing diverse Reports (Sprints, Budget weekly, Budget forecasts, Budget
+                  reports for company)
+                </li>
+                <li>Supporting Team’s satisfaction, supporting the project's documentation</li>
               </ul>
             </p>
 
             <p>
               <strong>Key challenges</strong>
               <ul>
-                <li>Global projects upgrade in short deadline with lack of resources</li>
-                <li>Limited time for documentation support</li>
-                <li>
-                  Unforeseen business logic that was missed in the documentation, provided by
-                  Customer
-                </li>
+                <li>Complicated technology stack and services used in the project</li>
+                <li>Integration of different LMS (Learning Management Systems)</li>
+                <li>Big feature-set implementation in parallel</li>
+                <li>Big team</li>
               </ul>
             </p>
 
             <p>
               <strong>References</strong>
               <nav>
-                <a href="https://www.etravel.cz/">https://www.etravel.cz/</a>
-                <a href="https://www.aldiana.com/">https://www.aldiana.com/</a>
+                <a target="_blank" rel="noreferrer" href="https://www.proctoru.com/">
+                  https://www.proctoru.com
+                </a>
+              </nav>
+            </p>
+          </article>
+        </div>
+
+        <div className="row">
+          <div className="col-sm-2 center-xs">
+            <div className="bubble">
+              <div>May 2015</div>
+              <div className="center">1 Year</div>
+              <div>April 2016</div>
+            </div>
+          </div>
+          <article className="exp-item col-xs-12 col-sm-8 ">
+            <h3>OCS Innovation Company (OCSICO®), Minsk, Belarus</h3>
+            <div>Business Analyst / Product Manager May 2015 - April 2016</div>
+
+            <p>
+              <strong>Main tasks</strong>
+              <ul>
+                <li>
+                  Analysing incoming RFP, business cases and requirements (reporting system etc.)
+                </li>
+                <li>Taking care of a Backlog and proper tickets description</li>
+                <li>
+                  Preparing and supporting all the project-related documentation, such as technical
+                  specifications, user manuals etc.
+                </li>
+                <li>Resolving project issues and keeping stakeholders updated with the status</li>
+              </ul>
+            </p>
+
+            <p>
+              <strong>Key challenges</strong>
+              <ul>
+                <li>Connection to SAP BO Database</li>
+                <li>Desktop, IOS and Android apps support for numerous user levels</li>
+                <li>Complicated reporting system on project’s end</li>
+              </ul>
+            </p>
+
+            <p>
+              <strong>References</strong>
+              <nav>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.trc-solutions.com/assisted-selling-platform/"
+                >
+                  https://www.trc-solutions.com/assisted-selling-platform/
+                </a>
               </nav>
             </p>
           </article>
@@ -261,24 +373,27 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-2 center-xs">
             <div className="bubble last">
-              <div>January 2018</div>
-              <div className="center">2 years</div>
-              <div>January 2020</div>
+              <div>June 2012</div>
+              <div className="center">3 Years</div>
+              <div>February 2015</div>
             </div>
           </div>
           <article className="exp-item col-xs-12 col-sm-8 ">
-            <h3>Freshcells GmbH, Düsseldorf, Germany</h3>
-            <div>Project Manager / Consultant, January 2018 - January 2020</div>
+            <h3>SoftConveyer, Minsk, Belarus</h3>
+            <div>Business Analyst / Product Manager June 2012 - February 2015</div>
 
             <p>
               <strong>Main tasks</strong>
               <ul>
-                <li>Requirements elaboration, mockups preparation</li>
-                <li>Taking care of a Backlog and proper tickets description</li>
-                <li>Setting up project processes, preparation of weekly reports and invoicing</li>
-                <li>Defined and optimised Project’s Information Structure</li>
+                <li>Planning, scheduling and executing all the stages of software development</li>
+                <li>Preparing and supporting project’s documentation and Project Plan</li>
                 <li>
-                  Defining the governance (access rights, workflows etc.) in Jira and Confluence
+                  Articulating project scope, business stories, preparing WBS for achieving needs
+                  and milestones
+                </li>
+                <li>
+                  Assessing business implications for each project phase and monitoring progress to
+                  meet deadlines, standards and cost targets
                 </li>
               </ul>
             </p>
@@ -286,20 +401,25 @@ const IndexPage = () => (
             <p>
               <strong>Key challenges</strong>
               <ul>
-                <li>Global projects upgrade in short deadline with lack of resources</li>
-                <li>Limited time for documentation support</li>
                 <li>
-                  Unforeseen business logic that was missed in the documentation, provided by
-                  Customer
+                  Web-contracting service initiation - from the idea till release to the Norwegian
+                  real-estate market
                 </li>
+                <li>Technical restrictions and project scaling</li>
+                <li>Short deadlines and limited resources</li>
               </ul>
             </p>
 
             <p>
               <strong>References</strong>
               <nav>
-                <a href="https://www.etravel.cz/">https://www.etravel.cz/</a>
-                <a href="https://www.aldiana.com/">https://www.aldiana.com/</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.trc-solutions.com/assisted-selling-platform/"
+                >
+                  https://www.trc-solutions.com/assisted-selling-platform/
+                </a>
               </nav>
             </p>
           </article>

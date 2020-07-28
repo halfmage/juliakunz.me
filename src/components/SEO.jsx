@@ -7,7 +7,7 @@ function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
       query={detailsQuery}
-      render={data => {
+      render={(data) => {
         const pageTitle = title || data.site.siteMetadata.title;
         const metaDescription = description || data.site.siteMetadata.description;
         const metaKeywords = keywords.length ? keywords : data.site.siteMetadata.keywords;
@@ -62,7 +62,9 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : [],
               )
               .concat(meta)}
-          />
+          >
+            <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
+          </Helmet>
         );
       }}
     />

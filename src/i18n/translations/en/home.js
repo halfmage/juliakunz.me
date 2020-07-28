@@ -1,11 +1,12 @@
 export default {
   title: 'Home',
-  Hello: '👋 Hello',
+  Hello: 'Hello',
   Welcome:
     'My name is Julia Kunz, I help companies and agencies to successfully manage their projects, maintain documentations and analyse business.',
   'Now go build something great': 'Now go build something great.',
 
-  HeroOne: 'Looking for full-time position',
+  HeroOne: 'Available for full-time',
+  LearnMore: 'or learn more',
 
   ServiceHeadline: 'Overview of my professions',
   ServiceSubheadline:
@@ -23,4 +24,12 @@ export default {
   CVHeadline: 'Professional Experience',
   CVSubheadline:
     'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
+  Languages: 'Languages',
+  English: 'English',
+  Fluent: 'Fluent',
+  German: 'German',
+  CurrentlyB2: 'Currently B2',
+  Russian: 'Russian',
+  MotherTongue: 'Mother tongue',
+  Degrees: 'Degrees',
 };
