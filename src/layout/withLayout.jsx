@@ -10,6 +10,7 @@ import enData from 'react-intl/locale-data/en';
 import { translations, languages } from '../i18n';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import './layout.css';
 import '../styles/grid.scss';
@@ -45,6 +46,7 @@ const withLayout = (customProps) => (PageComponent) => (props) => {
             <main>
               <PageComponent {...props} />
             </main>
+            <Footer />
           </PageContext.Provider>
         </IntlProvider>
       )}

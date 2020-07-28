@@ -1,6 +1,6 @@
 export default {
   title: 'Startseite',
-  Hello: 'Hallo',
+  Hello: 'Schön Sie zu sehen!',
   Welcome:
     'Mein Name ist Julia Kunz, ich helfe Unternehmen und Agenturen Ihre Projekte  zu planen, Dokumentationen zu pflegen und bei Geschäftsanalysen.',
   'Now go build something great': 'Jetzt leg los und erschaffe Großartiges',
@@ -33,4 +33,7 @@ export default {
   Russian: 'Russisch',
   MotherTongue: 'Muttersprache',
   Degrees: 'Abschlüsse',
+
+  Footer:
+    'Ich konnte Sie mit meinen Fähigkeiten und Kompetenzen überzeugen? Schreiben Sie mir gerne eine E-Mail an julia.kunz.de@gmail.com und ich melde mich so schnell wie möglich bei Ihnen zurück.',
 };

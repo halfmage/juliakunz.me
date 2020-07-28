@@ -5,10 +5,29 @@ body {
 
 body {
   color: #1a202c;
-  background-color: #f7fafc;
+  background-color: #ebf4ff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
+}
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  .lang-item {
+    cursor: pointer;
+    &:hover {
+      opacity: 1 !important;
+    }
+    & + .lang-item {
+      margin-left: 1rem;
+    }
+  }
+  i {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 0.125rem;
+  }
 }
 
 .section {
@@ -17,46 +36,74 @@ body {
 }
 
 .hero {
-  padding: 4rem 0;
-  background-color: #ebf4ff;
+  padding: 2rem 0;
+  background: linear-gradient(0deg, #ebf4ff, #fff);
   color: #2a4365;
 
   @media (min-width: 768px) {
     padding: 8rem 0;
   }
 
+  h1 {
+    font-size: 24px;
+    @media (min-width: 768px) {
+      font-size: 36px;
+    }
+  }
+
   img {
     box-shadow: 0 1rem 2rem rgba(11, 83, 148, 0.25);
-    border-radius: 1rem;
     object-fit: cover;
-    width: 100%;
     height: 200px;
+    width: 200px;
+    border-radius: 50%;
 
     @media (min-width: 768px) {
       height: 400px;
+      width: 100%;
+      border-radius: 1rem;
     }
   }
 
   .hero-link {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     color: #fff;
-    background-color: #48bb78;
-    padding: 0.5rem 1rem;
+    background-color: rgb(44, 177, 99);
+    box-shadow: 0 2px 12px rgba(13, 95, 47, 0.25);
+    padding: 0.75rem 1.25rem;
     border-radius: 0.25rem;
     display: inline-block;
     margin-right: 1rem;
+    transition: all 0.125s;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.125);
+    letter-spacing: 0.5px;
+
+    &:hover {
+      background-color: rgb(10, 167, 75);
+      box-shadow: 0 4px 18px rgba(35, 170, 91, 0.5);
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    }
   }
 }
 
 .box {
   margin-bottom: 1rem;
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: #fff;
   border-radius: 0.25rem;
   border: 1px solid #c3dafe;
   position: relative;
   box-shadow: 0 0.25rem 0.5rem rgba(11, 83, 148, 0.05);
   transition: all 0.25s;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
 
   &:hover {
     box-shadow: 0 0.25rem 0.75rem rgba(11, 83, 148, 0.15);
@@ -70,29 +117,39 @@ body {
     transition: all 0.25s;
     margin-bottom: 1rem;
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
     opacity: 0.5;
+    width: 2rem;
+    height: 2rem;
+    top: 1rem;
+    right: 1rem;
+
+    @media (min-width: 768px) {
+      width: 3rem;
+      height: 3rem;
+    }
   }
 
   h4 {
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(11, 83, 148);
     margin-bottom: 1rem;
   }
 }
 
 .header {
-  padding: 1rem 0;
-  background-color: #ebf4ff;
-  border-bottom: 1px solid #c3dafe;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  @media (min-width: 768px) {
+    padding: 1rem 0;
+  }
 
   h1 {
-    font-size: 36px;
-
-    @media (min-width: 768px) {
-      font-size: 24px;
-    }
+    font-size: 24px;
   }
 }
 
@@ -102,18 +159,31 @@ a {
 }
 
 .headline {
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.3;
+
+  @media (min-width: 768px) {
+    font-size: 36px;
+  }
 }
 
 .subheadline {
-  font-size: 24px;
-  line-height: 1.3;
+  font-size: 18px;
+  line-height: 1.5;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.3;
+  }
 }
 
 .text-large {
-  font-size: 24px;
+  font-size: 18px;
   color: #2a4365;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .exp-item {
@@ -222,5 +292,19 @@ a {
 
   & + & {
     margin-top: 1rem;
+  }
+}
+
+.footer {
+  .hero {
+    background: linear-gradient(0deg, #fff, #ebf4ff);
+  }
+  .hero img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+  .hero-link {
+    margin: 0;
   }
 }

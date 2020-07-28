@@ -1,6 +1,6 @@
 export default {
   title: 'Home',
-  Hello: 'Hello',
+  Hello: 'Nice to meet you!',
   Welcome:
     'My name is Julia Kunz, I help companies and agencies to successfully manage their projects, maintain documentations and analyse business.',
   'Now go build something great': 'Now go build something great.',
@@ -32,4 +32,7 @@ export default {
   Russian: 'Russian',
   MotherTongue: 'Mother tongue',
   Degrees: 'Degrees',
+
+  Footer:
+    'I could convince you with my abilities and skills? Feel free to contact me via my email adress and I will come back to you as soon as possible.',
 };

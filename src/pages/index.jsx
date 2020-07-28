@@ -27,6 +27,7 @@ const IndexPage = () => (
             <a href="mailto:julia.kunz.de@gmail.com" className="hero-link ">
               <FormattedMessage id="home.HeroOne" />
             </a>
+            <span style={{ opacity: '.75' }}>julia.kunz.de@gmail.com</span>
           </div>
         </div>
       </div>
