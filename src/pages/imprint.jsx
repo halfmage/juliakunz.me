@@ -10,7 +10,8 @@ const ImprintPage = () => (
       <div className="section">
         <Link>Zurück zur Startseite</Link> <br />
         <h1>Impressum</h1>
-        Angaben gemäß § 5 TMGGerrit Ralf Halfmann Luisenstraße 66 40215 Düsseldorf
+        Angaben gemäß § 5 TMG <br />
+        Gerrit Ralf Halfmann Luisenstraße 66 40215 Düsseldorf
         <br />
         <br />
         <strong>Vertreten durch: </strong> <br />

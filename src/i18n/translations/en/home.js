@@ -33,6 +33,8 @@ export default {
   MotherTongue: 'Mother tongue',
   Degrees: 'Degrees',
 
+  Imprint: 'Imprint',
+
   Germany: 'Germany',
   Months: 'Months',
   Years: 'Years',

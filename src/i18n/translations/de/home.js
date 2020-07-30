@@ -34,6 +34,8 @@ export default {
   MotherTongue: 'Muttersprache',
   Degrees: 'Abschlüsse',
 
+  Imprint: 'Impressum',
+
   Germany: 'Deutschland',
   Months: 'Monate',
   Years: 'Jahre',
