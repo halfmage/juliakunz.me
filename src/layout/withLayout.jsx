@@ -25,7 +25,7 @@ const withLayout = (customProps) => (PageComponent) => (props) => {
 
   const defaultLocale = languages.find((language) => language.default).locale;
   const pageLocale = locale || defaultLocale;
-  const pageTitle = locale ? translations[locale][`${localeKey}.title`] : '';
+  // const pageTitle = locale ? translations[locale][`${localeKey}.title`] : '';
 
   return (
     <StaticQuery
@@ -41,7 +41,7 @@ const withLayout = (customProps) => (PageComponent) => (props) => {
       render={(data) => (
         <IntlProvider locale={pageLocale} messages={translations[pageLocale]}>
           <PageContext.Provider value={pageContextValue}>
-            <SEO title={pageTitle} lang={pageLocale} />
+            <SEO title="Julia Kunz" lang={pageLocale} />
             <Header siteTitle={data.site.siteMetadata.title} hideLangs={hideLangs} />
             <main>
               <PageComponent {...props} />

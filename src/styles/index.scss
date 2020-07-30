@@ -51,17 +51,61 @@ body {
     }
   }
 
-  img {
-    box-shadow: 0 1rem 2rem rgba(11, 83, 148, 0.25);
-    object-fit: cover;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+  .img-container {
+    position: relative;
+    margin-bottom: 2rem;
+    &:before {
+      content: '';
+      width: 160px;
+      height: 200px;
+      background: url('/decoration.svg');
+      position: absolute;
+      z-index: 0;
+      top: -2.5rem;
+      left: 0rem;
+      transform: rotate(-90deg);
+
+      @media (min-width: 768px) {
+        transform: rotate(180deg);
+        top: -3rem;
+        left: -2.5rem;
+      }
+    }
+    &:after {
+      content: '';
+      width: 160px;
+      height: 200px;
+      background: url('/decoration.svg');
+      position: absolute;
+      z-index: 0;
+      bottom: -2.5rem;
+      right: 0rem;
+      transform: rotate(90deg);
+
+      @media (min-width: 768px) {
+        transform: rotate(0deg);
+        bottom: -2.5rem;
+        right: -2.5rem;
+      }
+    }
+  }
+
+  .gatsby-image-wrapper {
+    height: 220px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 99rem;
+    box-shadow: 0 2px 12px rgba(13, 95, 47, 0.25);
 
     @media (min-width: 768px) {
+      border-radius: 0.25rem;
       height: 400px;
       width: 100%;
-      border-radius: 1rem;
+    }
+
+    img {
+      z-index: 1;
     }
   }
 
@@ -74,10 +118,14 @@ body {
     padding: 0.75rem 1.25rem;
     border-radius: 0.25rem;
     display: inline-block;
-    margin-right: 1rem;
+    margin-bottom: 1rem;
     transition: all 0.125s;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.125);
     letter-spacing: 0.5px;
+
+    @media (min-width: 768px) {
+      margin-right: 1rem;
+    }
 
     &:hover {
       background-color: rgb(10, 167, 75);
@@ -275,10 +323,16 @@ a {
   border: 1px solid #c3dafe;
   position: relative;
   box-shadow: 0 0.25rem 0.5rem rgba(11, 83, 148, 0.05);
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: 0.25rem;
   font-weight: bold;
   color: #2a4365;
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    padding: 1.25rem;
+    font-size: 1rem;
+  }
 
   span span {
     font-weight: normal;
@@ -286,8 +340,13 @@ a {
   }
 
   i {
-    font-size: 1.5rem;
-    margin-right: 1rem;
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+
+    @media (min-width: 768px) {
+      margin-right: 1rem;
+      font-size: 1.5rem;
+    }
   }
 
   & + & {

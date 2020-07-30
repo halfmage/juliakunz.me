@@ -34,6 +34,14 @@ export default {
   MotherTongue: 'Muttersprache',
   Degrees: 'Abschlüsse',
 
+  Germany: 'Deutschland',
+  Months: 'Monate',
+  Years: 'Jahre',
+  Year: 'Jahr',
+  MainTasks: 'Verantwortlichkeiten:',
+  KeyChallenges: 'Herausforderungen:',
+  References: 'Referenzen',
+
   Footer:
     'Ich konnte Sie mit meinen Fähigkeiten und Kompetenzen überzeugen? Schreiben Sie mir gerne eine E-Mail an julia.kunz.de@gmail.com und ich melde mich so schnell wie möglich bei Ihnen zurück.',
 };

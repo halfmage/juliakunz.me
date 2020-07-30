@@ -26,11 +26,19 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:title`,
-                content: pageTitle,
+                content: `${pageTitle} - Julia Kunz`,
               },
               {
                 property: `og:description`,
                 content: metaDescription,
+              },
+              {
+                property: `og:url`,
+                content: `https://juliakunz.me`,
+              },
+              {
+                property: `og:image`,
+                content: `https://juliakunz.netlify.app/social.png`,
               },
               {
                 property: `og:type`,

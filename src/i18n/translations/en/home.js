@@ -33,6 +33,14 @@ export default {
   MotherTongue: 'Mother tongue',
   Degrees: 'Degrees',
 
+  Germany: 'Germany',
+  Months: 'Months',
+  Years: 'Years',
+  Year: 'Year',
+  MainTasks: 'Main tasks:',
+  KeyChallenges: 'Key challenges',
+  References: 'References',
+
   Footer:
     'I could convince you with my abilities and skills? Feel free to contact me via my email adress and I will come back to you as soon as possible.',
 };
