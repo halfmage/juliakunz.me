@@ -1,29 +1,29 @@
 export default {
   title: 'Startseite',
-  Hello: 'Schön Sie zu sehen!',
+  Hello: 'Hallo! Schön Sie kennenzulernen!',
   Welcome:
-    'Mein Name ist Julia Kunz, ich helfe Unternehmen und Agenturen Ihre Projekte  zu planen, Dokumentationen zu pflegen und bei Geschäftsanalysen.',
-  'Now go build something great': 'Jetzt leg los und erschaffe Großartiges',
+    'Mein Name ist Julia Kunz, ich helfe Unternehmen bei der Analyse, Planung und Dokumentation um Projekte erfolgreich durchzuführen.',
 
   HeroOne: 'Verfügbar für Vollzeit',
   LearnMore: 'oder Mehr über mich',
 
   ServiceHeadline: 'Übersicht meiner Fähigkeiten',
   ServiceSubheadline:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
+    'Ich widme mich voll und ganz meiner Arbeit und Erfahrung. Produktive Kommunikation, sachgemäße Analysen, kreative Arbeitsprozesse und Flexibilität geben mir die Energie für meine tägliche Arbeit.',
 
-  BA: 'Business Analsyse',
-  BAText: 'Analytisches Denken & KPI Analysen für Prozessoptimierung.',
+  BA: 'Business Analyse',
+  BAText: 'KPI Analyse, Prozessoptimierung, Statistiken',
+  BATools: 'MS Access, MS Excel, Google Analytics, SQL, VBA',
   PM: 'Product Management and Ownership',
-  PMText: 'Das Planen, Steuern, Priorisieren und Abschließen von Projekten.',
-  PO: 'Product Ownership',
-  POText: 'Gestaltung von digitalen Produkten für wirtschaftlichen Erfolg.',
+  PMText: 'Projektplanung, Projekt Feature Überwachung & Priorisierung',
+  PMTools: 'Atlassian JIRA & Confluence, MS Project, OmniPlan, MindManager, Trello',
   DO: 'Dokumentation',
-  DOText: 'Bedarfsanalysen & SRSs Prototyping & WBS.',
+  DOText: 'Anforderungsanalyse , SRS, Prototypen Erstellung, WBS, User Stories',
+  DOTools: 'Office Suit, Balsamiq, Axure, Visio, Snagit',
 
   CVHeadline: 'Beruflicher Werdegang',
   CVSubheadline:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
+    'Ich war bereits seit einigen Jahren als Business-Analystin und Projektmanagerung für Unternehmen aus unterschiedlichsten Bereichen wie Bildung, Verkauf, Tourismus und Immobilien tätig. Ich bin überzeugt das motivierte und talentierte Menschen die halbe Miete für ein erfolgreiches Projekt sind',
 
   Languages: 'Sprachen',
   English: 'Englisch',

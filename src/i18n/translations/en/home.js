@@ -30,7 +30,7 @@ export default {
   German: 'German',
   CurrentlyB2: 'B2',
   Russian: 'Russian',
-  MotherTongue: 'Mother tongue',
+  MotherTongue: 'Native',
   Degrees: 'Degrees',
 
   Imprint: 'Imprint',
