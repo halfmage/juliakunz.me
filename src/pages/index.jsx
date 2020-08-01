@@ -59,31 +59,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="row">
-              <div className="col-xs-12 col-sm-6">
-                <div className="box">
-                  <svg
-                    viewBox="0 0 24 24"
-                    width="48"
-                    height="48"
-                    stroke="#A3BFFA"
-                    stroke-width="1"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="css-i6dzq1"
-                  >
-                    <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
-                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                  </svg>
-                  <h4>
-                    <FormattedMessage id="home.BA" />
-                  </h4>
-                  <FormattedMessage id="home.BAText" />
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6">
+              <div className="col-xs-12 col-sm-4">
                 <div className="box">
                   <svg
                     viewBox="0 0 24 24"
@@ -107,14 +83,15 @@ const IndexPage = () => (
                     <line x1="17" y1="16" x2="23" y2="16"></line>
                   </svg>
                   <h4>
-                    <FormattedMessage id="home.PM" />
+                    <FormattedMessage id="home.BA" />
                   </h4>
-                  <FormattedMessage id="home.PMText" />
+                  <strong>
+                    <FormattedMessage id="home.BAText" />
+                  </strong>
+                  <FormattedMessage id="home.BATools" />
                 </div>
               </div>
-            </div>
-            <div className="row">
-              <div className="col-xs-12 col-sm-6">
+              <div className="col-xs-12 col-sm-4">
                 <div className="box">
                   <svg
                     viewBox="0 0 24 24"
@@ -130,12 +107,15 @@ const IndexPage = () => (
                     <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                   </svg>
                   <h4>
-                    <FormattedMessage id="home.PO" />
+                    <FormattedMessage id="home.PM" />
                   </h4>
-                  <FormattedMessage id="home.POText" />
+                  <strong>
+                    <FormattedMessage id="home.PMText" />
+                  </strong>
+                  <FormattedMessage id="home.PMTools" />
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-6">
+              <div className="col-xs-12 col-sm-4">
                 <div className="box">
                   <svg
                     viewBox="0 0 24 24"
@@ -157,7 +137,10 @@ const IndexPage = () => (
                   <h4>
                     <FormattedMessage id="home.DO" />
                   </h4>
-                  <FormattedMessage id="home.DOText" />
+                  <strong>
+                    <FormattedMessage id="home.DOText" />
+                  </strong>
+                  <FormattedMessage id="home.DOTools" />
                 </div>
               </div>
             </div>
@@ -198,19 +181,13 @@ const IndexPage = () => (
                 <div className="listbox">
                   <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
                   <span>
-                    Belarusian State Economic University - <span>2007</span>
+                    Bachelor of Science - <span>Belarusian State Economic University</span>
                   </span>
                 </div>
                 <div className="listbox">
                   <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
                   <span>
-                    Bachelor of Science - <span>Economic Cybernetics</span>
-                  </span>
-                </div>
-                <div className="listbox">
-                  <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
-                  <span>
-                    Alison Diploma in Project Management - <span>276-9159423</span>
+                    Diploma in Project Management - <span>Alison</span>
                   </span>
                 </div>
               </div>

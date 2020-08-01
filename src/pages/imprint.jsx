@@ -8,7 +8,7 @@ const ImprintPage = () => (
   <>
     <div className="container-fluid wrap">
       <div className="section">
-        <Link>Zurück zur Startseite</Link> <br />
+        <Link to="/">Zurück zur Startseite</Link> <br />
         <h1>Impressum</h1>
         Angaben gemäß § 5 TMG <br />
         Gerrit Ralf Halfmann Luisenstraße 66 40215 Düsseldorf

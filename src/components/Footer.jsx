@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="hero">
       <div className="wrap">
         <div className="row">
-          <div className="col-xs-12 col-sm-10 col-sm-offset-1 center-xs">
+          <div className="col-xs-12 col-sm-6 col-sm-offset-3 center-xs">
             <img src={Julia} alt="test" />
             <h3 className="subheadline">
               <FormattedMessage id="home.Footer" />

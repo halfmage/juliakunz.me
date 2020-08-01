@@ -1,34 +1,34 @@
 export default {
   title: 'Home',
-  Hello: 'Nice to meet you!',
+  Hello: 'Hi there! Nice to meet you!',
   Welcome:
-    'My name is Julia Kunz, I help companies and agencies to successfully manage their projects, maintain documentations and analyse business.',
-  'Now go build something great': 'Now go build something great.',
+    'My name is Julia Kunz.  I am fully passionate about my job, so that I always do my best to push further the success of the company together with the team and to be on a high level of IT Business Analysis and Project Management. ',
 
   HeroOne: 'Available for full-time',
   LearnMore: 'or learn more',
 
-  ServiceHeadline: 'Overview of my professions',
+  ServiceHeadline: 'My areas of expertise',
   ServiceSubheadline:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
+    'My goal is dedication to my work and experience. Productive communication, proper analysis and information, creativity in working process, flexible attitude in each case - this is what gives me strength each day.',
 
   BA: 'Business Analysis',
-  BAText: 'Analytical thinking & KPI analysis Processes Optimisation',
-  PM: 'Project Management',
-  PMText: 'Project Planning & Scheduling Features creation & prioritisation',
-  PO: 'Product Ownership',
-  POText: 'Stakeholder ManagementFeatures creation & prioritisation',
+  BAText: 'KPI analysis, Processes Optimisation, Statistical Analysis',
+  BATools: 'MS Access, MS Excel, Google Analytics, SQL, VBA',
+  PM: 'Product Management and Ownership',
+  PMText: 'Project Planning, Scheduling, Features creation & prioritisation',
+  PMTools: 'Atlassian JIRA & Confluence, MS Project, OmniPlan, MindManager, Trello',
   DO: 'Documentation',
-  DOText: 'Requirements Analysis & SRSs Prototyping & WBS',
+  DOText: 'Requirements Analysis, SRS, Prototyping, WBS, User Stories',
+  DOTools: 'Office Suit, Balsamiq, Axure, Visio, Snagit',
 
   CVHeadline: 'Professional Experience',
   CVSubheadline:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis ipsa voluptates pariatur consequatur accusantium nemo vitae dolores aut tenetur, iusto amet ut culpa nihil. Repudiandae natus fuga quas libero!',
+    'I have done business analysis and project management work for companies in diverse industries like education, retail, tourism and real estate. I believe smart and talented people are half the battle for successful projects.',
   Languages: 'Languages',
   English: 'English',
   Fluent: 'Fluent',
   German: 'German',
-  CurrentlyB2: 'Currently B2',
+  CurrentlyB2: 'B2',
   Russian: 'Russian',
   MotherTongue: 'Mother tongue',
   Degrees: 'Degrees',
@@ -44,5 +44,5 @@ export default {
   References: 'References',
 
   Footer:
-    'I could convince you with my abilities and skills? Feel free to contact me via my email adress and I will come back to you as soon as possible.',
+    'I am here to assist you so please do not hesitate to contact me. I look forward to helping your Company reach your goals!',
 };

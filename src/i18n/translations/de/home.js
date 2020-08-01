@@ -14,7 +14,7 @@ export default {
 
   BA: 'Business Analsyse',
   BAText: 'Analytisches Denken & KPI Analysen für Prozessoptimierung.',
-  PM: 'Project Management',
+  PM: 'Product Management and Ownership',
   PMText: 'Das Planen, Steuern, Priorisieren und Abschließen von Projekten.',
   PO: 'Product Ownership',
   POText: 'Gestaltung von digitalen Produkten für wirtschaftlichen Erfolg.',
@@ -29,7 +29,7 @@ export default {
   English: 'Englisch',
   Fluent: 'Fließend',
   German: 'Deutsch',
-  CurrentlyB2: 'Aktuell B2',
+  CurrentlyB2: 'B2',
   Russian: 'Russisch',
   MotherTongue: 'Muttersprache',
   Degrees: 'Abschlüsse',
