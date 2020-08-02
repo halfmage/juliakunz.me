@@ -243,14 +243,20 @@ const IndexPage = () => (
                     <FormattedMessage id="home.MainTasks" />
                   </strong>
                   <ul>
-                    <li>Requirements elaboration, mockups preparation</li>
-                    <li>Taking care of a Backlog and proper tickets description</li>
                     <li>
-                      Setting up project processes, preparation of weekly reports and invoicing
+                      <FormattedMessage id="home.freshcells.one" />
                     </li>
-                    <li>Defined and optimised Project’s Information Structure</li>
                     <li>
-                      Defining the governance (access rights, workflows etc.) in Jira and Confluence
+                      <FormattedMessage id="home.freshcells.two" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.freshcells.three" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.freshcells.four" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.freshcells.five" />
                     </li>
                   </ul>
                 </p>
@@ -260,11 +266,14 @@ const IndexPage = () => (
                     <FormattedMessage id="home.KeyChallenges" />
                   </strong>
                   <ul>
-                    <li>Global projects upgrade in short deadline with lack of resources</li>
-                    <li>Limited time for documentation support</li>
                     <li>
-                      Unforeseen business logic that was missed in the documentation, provided by
-                      Customer
+                      <FormattedMessage id="home.freshcells.six" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.freshcells.seven" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.freshcells.eight" />
                     </li>
                   </ul>
                 </p>
@@ -276,7 +285,8 @@ const IndexPage = () => (
                   <nav>
                     <a target="_blank" rel="noreferrer" href="https://www.etravel.cz/">
                       https://www.etravel.cz/
-                    </a>
+                    </a>{' '}
+                    -{' '}
                     <a target="_blank" rel="noreferrer" href="https://www.aldiana.com/">
                       https://www.aldiana.com/
                     </a>
@@ -305,18 +315,17 @@ const IndexPage = () => (
                   </strong>
                   <ul>
                     <li>
-                      Taking care of a Backlog, stories DoR state and making sure that team
-                      understands all the requirements correctly
+                      <FormattedMessage id="home.oxagile.one" />
                     </li>
                     <li>
-                      Planning Sprints, Milestones and all related Team - meetings, including
-                      Retrospectives
+                      <FormattedMessage id="home.oxagile.two" />
                     </li>
                     <li>
-                      Preparing diverse Reports (Sprints, Budget weekly, Budget forecasts, Budget
-                      reports for company)
+                      <FormattedMessage id="home.oxagile.three" />
                     </li>
-                    <li>Supporting Team’s satisfaction, supporting the project's documentation</li>
+                    <li>
+                      <FormattedMessage id="home.oxagile.four" />
+                    </li>
                   </ul>
                 </p>
 
@@ -325,10 +334,18 @@ const IndexPage = () => (
                     <FormattedMessage id="home.KeyChallenges" />
                   </strong>
                   <ul>
-                    <li>Complicated technology stack and services used in the project</li>
-                    <li>Integration of different LMS (Learning Management Systems)</li>
-                    <li>Big feature-set implementation in parallel</li>
-                    <li>Big team</li>
+                    <li>
+                      <FormattedMessage id="home.oxagile.five" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.oxagile.six" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.oxagile.seven" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.oxagile.eight" />
+                    </li>
                   </ul>
                 </p>
 
@@ -365,16 +382,16 @@ const IndexPage = () => (
                   </strong>
                   <ul>
                     <li>
-                      Analysing incoming RFP, business cases and requirements (reporting system
-                      etc.)
-                    </li>
-                    <li>Taking care of a Backlog and proper tickets description</li>
-                    <li>
-                      Preparing and supporting all the project-related documentation, such as
-                      technical specifications, user manuals etc.
+                      <FormattedMessage id="home.ocs.one" />
                     </li>
                     <li>
-                      Resolving project issues and keeping stakeholders updated with the status
+                      <FormattedMessage id="home.ocs.two" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.ocs.three" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.ocs.four" />
                     </li>
                   </ul>
                 </p>
@@ -384,9 +401,15 @@ const IndexPage = () => (
                     <FormattedMessage id="home.KeyChallenges" />
                   </strong>
                   <ul>
-                    <li>Connection to SAP BO Database</li>
-                    <li>Desktop, IOS and Android apps support for numerous user levels</li>
-                    <li>Complicated reporting system on project’s end</li>
+                    <li>
+                      <FormattedMessage id="home.ocs.five" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.ocs.six" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.ocs.seven" />
+                    </li>
                   </ul>
                 </p>
 
@@ -427,16 +450,13 @@ const IndexPage = () => (
                   </strong>
                   <ul>
                     <li>
-                      Planning, scheduling and executing all the stages of software development
-                    </li>
-                    <li>Preparing and supporting project’s documentation and Project Plan</li>
-                    <li>
-                      Articulating project scope, business stories, preparing WBS for achieving
-                      needs and milestones
+                      <FormattedMessage id="home.softconveyer.one" />
                     </li>
                     <li>
-                      Assessing business implications for each project phase and monitoring progress
-                      to meet deadlines, standards and cost targets
+                      <FormattedMessage id="home.softconveyer.two" />
+                    </li>
+                    <li>
+                      <FormattedMessage id="home.softconveyer.four" />
                     </li>
                   </ul>
                 </p>
@@ -447,11 +467,11 @@ const IndexPage = () => (
                   </strong>
                   <ul>
                     <li>
-                      Web-contracting service initiation - from the idea till release to the
-                      Norwegian real-estate market
+                      <FormattedMessage id="home.softconveyer.five" />
                     </li>
-                    <li>Technical restrictions and project scaling</li>
-                    <li>Short deadlines and limited resources</li>
+                    <li>
+                      <FormattedMessage id="home.softconveyer.six" />
+                    </li>
                   </ul>
                 </p>
 
