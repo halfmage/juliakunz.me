@@ -44,5 +44,5 @@ export default {
   References: 'References',
 
   Footer:
-    'I am here to assist you so please do not hesitate to contact me. I look forward to helping your Company reach your goals!',
+    'I am here to assist you so please do not hesitate to contact me. I look forward to helping your company reach your goals!',
 };

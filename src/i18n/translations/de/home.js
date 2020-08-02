@@ -1,8 +1,8 @@
 export default {
   title: 'Startseite',
-  Hello: 'Hallo! Schön Sie kennenzulernen!',
+  Hello: 'Hallo! Schön Sie zu sehen!',
   Welcome:
-    'Mein Name ist Julia Kunz, ich helfe Unternehmen bei der Analyse, Planung und Dokumentation um Projekte erfolgreich durchzuführen.',
+    'Mein Name ist Julia Kunz. Ich bin leidenschaftliche Projekt Managerin und Product Ownerin und tue täglich mein Bestes um Unternehmen bei der Planung und Analyse von Projekten zu unterstützen.',
 
   HeroOne: 'Verfügbar für Vollzeit',
   LearnMore: 'oder Mehr über mich',
