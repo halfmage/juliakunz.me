@@ -10,7 +10,10 @@ const buttonStyle = {};
 const LangButton = ({ label, chosen, onClick, icon }) => (
   <div
     onClick={onClick}
+    onKeyDown={onClick}
     className="lang-item"
+    role="button"
+    tabIndex={0}
     style={{
       opacity: chosen ? '1' : '.5',
       ...buttonStyle,

@@ -43,10 +43,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
-    "babel-jest": "^24.3.0",
     "babel-preset-gatsby": "^0.1.8",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^24.3.0",
-    "react-test-renderer": "^16.8.4"
+    "identity-obj-proxy": "^3.0.0"
   }
 }

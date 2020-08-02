@@ -9,6 +9,7 @@ const Redirect = ({ navigate, pageContext: { redirectPage } }) => {
 
     localStorage.setItem('language', detected);
     navigate(newUrl);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <div />;

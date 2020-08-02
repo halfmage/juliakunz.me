@@ -1,5 +1,4 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
 
 import withLayout from '../layout';
 import Link from '../components/Link';

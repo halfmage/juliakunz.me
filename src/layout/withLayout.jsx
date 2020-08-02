@@ -19,7 +19,7 @@ addLocaleData([...plData, ...enData]);
 
 const withLayout = (customProps) => (PageComponent) => (props) => {
   const { locale } = props.pageContext;
-  const { localeKey, hideLangs } = customProps;
+  const { hideLangs } = customProps;
 
   const pageContextValue = { custom: customProps, page: props.pageContext };
 
