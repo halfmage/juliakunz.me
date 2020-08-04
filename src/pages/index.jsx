@@ -164,31 +164,33 @@ const IndexPage = () => (
           </div>
 
           <div className="section wrap">
-            <div className="row">
+            <div className="row listbox--row">
               <div className="col-xs-12 col-sm-6">
                 <h2 className="subheadline">
                   <FormattedMessage id="home.Languages" />
                 </h2>
                 <div className="listbox">
-                  <i class="em-svg em-uk" role="img" aria-label="UK"></i>
-                  <FormattedMessage id="home.English" /> -{' '}
-                  <span>
+                  <div className="listbox--item">
+                    <i class="em-svg em-uk" role="img" aria-label="UK"></i>
+                    <div className="bold">
+                      <FormattedMessage id="home.English" />
+                    </div>
                     <FormattedMessage id="home.Fluent" />
-                  </span>
-                </div>
-                <div className="listbox">
-                  <i class="em-svg em-de" role="img" aria-label="DE"></i>
-                  <FormattedMessage id="home.German" /> -{' '}
-                  <span>
+                  </div>
+                  <div className="listbox--item">
+                    <i class="em-svg em-de" role="img" aria-label="DE"></i>
+                    <div className="bold">
+                      <FormattedMessage id="home.German" />
+                    </div>
                     <FormattedMessage id="home.CurrentlyB2" />
-                  </span>
-                </div>
-                <div className="listbox">
-                  <i class="em-svg em-ru" role="img" aria-label="RU"></i>
-                  <FormattedMessage id="home.Russian" /> -{' '}
-                  <span>
+                  </div>
+                  <div className="listbox--item">
+                    <i class="em-svg em-ru" role="img" aria-label="RU"></i>
+                    <div className="bold">
+                      <FormattedMessage id="home.Russian" />
+                    </div>
                     <FormattedMessage id="home.MotherTongue" />
-                  </span>
+                  </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-6">
@@ -196,16 +198,20 @@ const IndexPage = () => (
                   <FormattedMessage id="home.Degrees" />
                 </h2>
                 <div className="listbox">
-                  <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
-                  <span>
-                    Bachelor of Science - <span>Belarusian State Economic University</span>
-                  </span>
-                </div>
-                <div className="listbox">
-                  <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
-                  <span>
-                    Diploma in Project Management - <span>Alison</span>
-                  </span>
+                  <div className="listbox--item">
+                    <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
+                    <div>
+                      <div className="bold">BSc in Economic Cybernetics</div>
+                      <div>Belarusian State Economic University</div>
+                    </div>
+                  </div>
+                  <div className="listbox--item">
+                    <i class="em-svg em-school" role="img" aria-label="SCHOOL"></i>
+                    <div>
+                      <div className="bold">Diploma in Project Management</div>
+                      <div>Alison</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
