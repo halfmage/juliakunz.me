@@ -11,15 +11,15 @@ export default {
   ServiceSubheadline:
     'My goal is dedication to my work and experience. Productive communication, proper analysis and information, creativity in working process, flexible attitude in each case - this is what gives me strength each day.',
 
-  BA: 'Business Analysis',
-  BAText: 'KPI analysis, Processes Optimisation, Statistical Analysis',
-  BATools: 'MS Access, MS Excel, Google Analytics, SQL, VBA',
-  PM: 'Product Management and Ownership',
-  PMText: 'Project Planning, Scheduling, Features creation & prioritisation',
-  PMTools: 'Atlassian JIRA & Confluence, MS Project, OmniPlan, MindManager, Trello',
-  DO: 'Documentation',
-  DOText: 'Requirements Analysis, SRS, Prototyping, WBS, User Stories',
-  DOTools: 'Office Suit, Balsamiq, Axure, Visio, Snagit',
+  BA: 'Project Management',
+  BAText: 'Project Planning, Scheduling, Prototyping, Documentation',
+  BATools: 'MS Project, Balsamiq, Axure, Visio, Snagit, Office Suit',
+  PM: 'Product Ownership',
+  PMText: 'Stakeholder Management, Features creation, Requirements Analysis, Prioritisation',
+  PMTools: 'Atlassian JIRA & Confluence, OmniPlan, MindManager, Trello',
+  DO: 'Business Analysis',
+  DOText: 'KPI analysis, Processes Optimisation, Statistical Analysis',
+  DOTools: 'MS Access, MS Excel, Google Analytics, SQL, VBA',
 
   CVHeadline: 'Professional Experience',
   CVSubheadline:
@@ -28,10 +28,11 @@ export default {
   English: 'English',
   Fluent: 'Fluent',
   German: 'German',
-  CurrentlyB2: 'B2',
+  CurrentlyB2: 'B2+',
   Russian: 'Russian',
   MotherTongue: 'Native',
   Degrees: 'Degrees',
+  Certificates: 'Certificates',
 
   Imprint: 'Imprint',
 

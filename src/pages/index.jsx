@@ -165,7 +165,7 @@ const IndexPage = () => (
 
           <div className="section wrap">
             <div className="row listbox--row">
-              <div className="col-xs-12 col-sm-6">
+              <div className="col-xs-12 col-sm-4">
                 <h2 className="subheadline">
                   <FormattedMessage id="home.Languages" />
                 </h2>
@@ -193,7 +193,7 @@ const IndexPage = () => (
                   </div>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-6">
+              <div className="col-xs-12 col-sm-4">
                 <h2 className="subheadline">
                   <FormattedMessage id="home.Degrees" />
                 </h2>
@@ -210,6 +210,37 @@ const IndexPage = () => (
                     <div>
                       <div className="bold">Diploma in Project Management</div>
                       <div>Alison</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-sm-4">
+                <h2 className="subheadline">
+                  <FormattedMessage id="home.Certificates" />
+                </h2>
+                <div className="listbox">
+                  <div className="listbox--item">
+                    <i class="em-svg em-scroll" role="img" aria-label="SCHOOL"></i>
+                    <div>
+                      <div className="bold bold-certificate">Alison Diploma in Project Management</div>
+                    </div>
+                  </div>
+                  <div className="listbox--item">
+                    <i class="em-svg em-scroll" role="img" aria-label="SCHOOL"></i>
+                    <div>
+                      <div className="bold bold-certificate">Udemy Certificate The Business Analysis Certification Program (IIBA - ECBA)</div>
+                    </div>
+                  </div>
+                  <div className="listbox--item">
+                    <i class="em-svg em-scroll" role="img" aria-label="SCHOOL"></i>
+                    <div>
+                      <div className="bold bold-certificate">Udemy Certificate in MySQL and Security</div>
+                    </div>
+                  </div>
+                  <div className="listbox--item">
+                    <i class="em-svg em-scroll" role="img" aria-label="SCHOOL"></i>
+                    <div>
+                      <div className="bold bold-certificate">Certificate TELC Deutsch B2 + Beruf</div>
                     </div>
                   </div>
                 </div>

@@ -11,15 +11,15 @@ export default {
   ServiceSubheadline:
     'Ich widme mich voll und ganz meiner Arbeit und Erfahrung. Produktive Kommunikation, sachgemäße Analysen, kreative Arbeitsprozesse und Flexibilität geben mir die Energie für meine tägliche Arbeit.',
 
-  BA: 'Business Analyse',
-  BAText: 'KPI Analyse, Prozessoptimierung, Statistiken',
-  BATools: 'MS Access, MS Excel, Google Analytics, SQL, VBA',
-  PM: 'Product Management and Ownership',
-  PMText: 'Projektplanung, Projekt Feature Überwachung & Priorisierung',
-  PMTools: 'Atlassian JIRA & Confluence, MS Project, OmniPlan, MindManager, Trello',
-  DO: 'Dokumentation',
-  DOText: 'Anforderungsanalyse , SRS, Prototypen Erstellung, WBS, User Stories',
-  DOTools: 'Office Suit, Balsamiq, Axure, Visio, Snagit',
+  BA: 'Projekt Management',
+  BAText: 'Projektorganisation, Planung, Prototyping, Dokumentation',
+  BATools: 'MS Project, Balsamiq, Axure, Visio, Snagit, Office Suit',
+  PM: 'Product Ownership',
+  PMText: 'Stakeholder Management, Planung von Funktionen, Anforderungsanalyse, Priorisierung',
+  PMTools: 'Atlassian JIRA & Confluence, OmniPlan, MindManager, Trello',
+  DO: 'Business Analysis',
+  DOText: 'KPI Analyse, Prozessoptimisierung, Statistische Analysen',
+  DOTools: 'MS Access, MS Excel, Google Analytics, SQL, VBA',
 
   CVHeadline: 'Beruflicher Werdegang',
   CVSubheadline:
@@ -29,10 +29,11 @@ export default {
   English: 'Englisch',
   Fluent: 'Fließend',
   German: 'Deutsch',
-  CurrentlyB2: 'B2',
+  CurrentlyB2: 'B2+',
   Russian: 'Russisch',
   MotherTongue: 'Muttersprache',
   Degrees: 'Abschlüsse',
+  Certificates: 'Zertifikate  ',
 
   Imprint: 'Impressum',
 
